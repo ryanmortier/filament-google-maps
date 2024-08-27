@@ -10,8 +10,8 @@
         $alignment = $getAlignment();
 
         if (! $alignment instanceof Alignment) {
-        $alignment = filled($alignment) ? (Alignment::tryFrom($alignment) ?? $alignment) : null;
-    }
+            $alignment = filled($alignment) ? (Alignment::tryFrom($alignment) ?? $alignment) : null;
+        }
     @endphp
 
     <div
